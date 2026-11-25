@@ -80,3 +80,7 @@ crashlytics-build.properties
 # XR CompositionLayers 运行时自动生成的偏好文件（Unity 会随时重建）
 /[Aa]ssets/[Cc]omposition[Ll]ayers/
 /[Aa]ssets/[Cc]omposition[Ll]ayers.meta
+
+# MCP screenshot captures (local only)
+/[Aa]ssets/[Ss]creenshots/
+/[Aa]ssets/[Ss]creenshots.meta
