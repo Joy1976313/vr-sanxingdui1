@@ -81,6 +81,7 @@ crashlytics-build.properties
 /[Aa]ssets/[Cc]omposition[Ll]ayers/
 /[Aa]ssets/[Cc]omposition[Ll]ayers.meta
 
-# MCP screenshot captures (local only)
-/[Aa]ssets/[Ss]creenshots/
-/[Aa]ssets/[Ss]creenshots.meta
+# 美术验收包（zip与解压物，不入库）
+/ArtReview/
+
+/ArtReview/
