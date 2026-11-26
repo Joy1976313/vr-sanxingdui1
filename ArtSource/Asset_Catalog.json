@@ -1,0 +1,629 @@
+[
+  {
+    "id": "L01_Slab_A",
+    "title": "等高凿切石板 A",
+    "group": "01 入口与路径",
+    "note": "1.944 m tile on 2 m pitch. Pivot at center of top walkable surface (Z=0).",
+    "mesh_count": 1,
+    "bounds": [
+      [
+        -0.972000002861023,
+        -0.972000002861023,
+        -2.4000000953674316
+      ],
+      [
+        0.972000002861023,
+        0.972000002861023,
+        0.0
+      ]
+    ]
+  },
+  {
+    "id": "L01_Slab_B",
+    "title": "等高凿切石板 B",
+    "group": "01 入口与路径",
+    "note": "1.944 m tile on 2 m pitch. Pivot at center of top walkable surface (Z=0).",
+    "mesh_count": 1,
+    "bounds": [
+      [
+        -0.972000002861023,
+        -0.972000002861023,
+        -2.4000000953674316
+      ],
+      [
+        0.972000002861023,
+        0.972000002861023,
+        0.0
+      ]
+    ]
+  },
+  {
+    "id": "L01_Slab_C",
+    "title": "等高凿切石板 C",
+    "group": "01 入口与路径",
+    "note": "1.944 m tile on 2 m pitch. Pivot at center of top walkable surface (Z=0).",
+    "mesh_count": 1,
+    "bounds": [
+      [
+        -0.972000002861023,
+        -0.972000002861023,
+        -2.4000000953674316
+      ],
+      [
+        0.972000002861023,
+        0.972000002861023,
+        0.0
+      ]
+    ]
+  },
+  {
+    "id": "L01_Reveal_Straight",
+    "title": "面具直行标记",
+    "group": "01 入口与路径",
+    "note": "Separate visual-only inlay on a 2 m grid. Pivot flush with slab top; assign engine-side reveal material and visibility.",
+    "mesh_count": 6,
+    "bounds": [
+      [
+        -0.9350000619888306,
+        -0.2757716178894043,
+        0.0029999995604157448
+      ],
+      [
+        0.9350000619888306,
+        0.2757716178894043,
+        0.0364999994635582
+      ]
+    ]
+  },
+  {
+    "id": "L01_Reveal_Corner",
+    "title": "面具转角标记",
+    "group": "01 入口与路径",
+    "note": "Separate visual-only inlay on a 2 m grid. Pivot flush with slab top; assign engine-side reveal material and visibility.",
+    "mesh_count": 6,
+    "bounds": [
+      [
+        -0.2757716178894043,
+        -0.2757716178894043,
+        0.0029999995604157448
+      ],
+      [
+        0.9350000619888306,
+        0.9350000619888306,
+        0.0364999994635582
+      ]
+    ]
+  },
+  {
+    "id": "L01_Reveal_Terminal",
+    "title": "面具起止标记",
+    "group": "01 入口与路径",
+    "note": "Separate visual-only inlay on a 2 m grid. Pivot flush with slab top; assign engine-side reveal material and visibility.",
+    "mesh_count": 4,
+    "bounds": [
+      [
+        -0.2757716178894043,
+        -0.2757716178894043,
+        0.0029999995604157448
+      ],
+      [
+        0.9350000619888306,
+        0.2757716178894043,
+        0.0364999994635582
+      ]
+    ]
+  },
+  {
+    "id": "Common_Landing",
+    "title": "厚石门前平台",
+    "group": "01 入口与路径",
+    "note": "4.04 x 5.45 m deck. Pivot centered at walk plane; underside supports included.",
+    "mesh_count": 4,
+    "bounds": [
+      [
+        -2.0199999809265137,
+        -2.7249999046325684,
+        -1.2450000047683716
+      ],
+      [
+        2.0199999809265137,
+        2.7249999046325684,
+        0.0
+      ]
+    ]
+  },
+  {
+    "id": "Common_DoorFrame",
+    "title": "厚石门套",
+    "group": "01 入口与路径",
+    "note": "Pivot at opening center on floor. Clear opening nominal 2.6 x 3.18 m. Front faces -X.",
+    "mesh_count": 13,
+    "bounds": [
+      [
+        -0.4754999876022339,
+        -1.8899999856948853,
+        0.0
+      ],
+      [
+        0.5049999952316284,
+        1.8899999856948853,
+        3.615000009536743
+      ]
+    ]
+  },
+  {
+    "id": "Common_BronzeDoorLeaf",
+    "title": "氧化青铜门扇",
+    "group": "01 入口与路径",
+    "note": "Closed leaf 2.65 m wide. Floor-level center pivot. Keep its own object when setting it aside or opening it.",
+    "mesh_count": 7,
+    "bounds": [
+      [
+        -0.1875,
+        -1.3250000476837158,
+        0.0
+      ],
+      [
+        0.0949999988079071,
+        1.3250000476837158,
+        3.2300000190734863
+      ]
+    ]
+  },
+  {
+    "id": "Common_StoneWallPanel",
+    "title": "石墙板与压边",
+    "group": "01 入口与路径",
+    "note": "Wall module 4.8 m wide x 7.6 m high; floor-level pivot. Solid thickness .5 m.",
+    "mesh_count": 4,
+    "bounds": [
+      [
+        -0.414000004529953,
+        -2.4000000953674316,
+        0.0
+      ],
+      [
+        0.25,
+        2.4000000953674316,
+        7.599999904632568
+      ]
+    ]
+  },
+  {
+    "id": "Common_StonePier",
+    "title": "石壁柱",
+    "group": "01 入口与路径",
+    "note": "6.8 m tall reversible wall pier. Front faces -X.",
+    "mesh_count": 4,
+    "bounds": [
+      [
+        -0.41200000047683716,
+        -0.45500001311302185,
+        0.0
+      ],
+      [
+        0.36000001430511475,
+        0.45500001311302185,
+        6.849999904632568
+      ]
+    ]
+  },
+  {
+    "id": "Common_WallBase",
+    "title": "石墙脚与帽石",
+    "group": "01 入口与路径",
+    "note": "4.8 m nominal width. Can replace wall-base pieces independently.",
+    "mesh_count": 2,
+    "bounds": [
+      [
+        -0.1900000125169754,
+        -2.4000000953674316,
+        0.0
+      ],
+      [
+        0.17000000178813934,
+        2.4000000953674316,
+        0.6800000071525574
+      ]
+    ]
+  },
+  {
+    "id": "Common_Corridor_2m",
+    "title": "厚壁连接通道",
+    "group": "01 入口与路径",
+    "note": "Repeat 2 m along X. Floor datum Z=0, 2.9 m clear width, about 3.3 m clear height.",
+    "mesh_count": 6,
+    "bounds": [
+      [
+        -1.0,
+        -1.8399999141693115,
+        -0.4399999976158142
+      ],
+      [
+        1.0,
+        1.8399999141693115,
+        3.680000066757202
+      ]
+    ]
+  },
+  {
+    "id": "Common_RoomCeiling_4m",
+    "title": "连续平顶模块",
+    "group": "01 入口与路径",
+    "note": "4 m repeat square with concealed join. Pivot on underside. For straight rooms, use a continuous merged ceiling when joined.",
+    "mesh_count": 1,
+    "bounds": [
+      [
+        -2.0,
+        -2.0,
+        0.0
+      ],
+      [
+        2.0,
+        2.0,
+        0.4399999976158142
+      ]
+    ]
+  },
+  {
+    "id": "L02_CurvedWallSector",
+    "title": "圆厅曲墙扇区",
+    "group": "02 圆形展厅",
+    "note": "30 degree sector at room radius 13 m. Pivot at midpoint on interior wall. Transfer pivot around room center when assembling; keep doorway center clear.",
+    "mesh_count": 4,
+    "bounds": [
+      [
+        -0.5920504927635193,
+        -3.502856969833374,
+        0.0
+      ],
+      [
+        0.550000011920929,
+        3.502856969833374,
+        6.800000190734863
+      ]
+    ]
+  },
+  {
+    "id": "L02_CurvedPortalSector",
+    "title": "圆厅曲墙开门扇区",
+    "group": "02 圆形展厅",
+    "note": "30 degree sector at room radius 13 m. Pivot at midpoint on interior wall. Transfer pivot around room center when assembling; keep doorway center clear.",
+    "mesh_count": 7,
+    "bounds": [
+      [
+        -0.5918882489204407,
+        -3.5028586387634277,
+        0.0
+      ],
+      [
+        0.550000011920929,
+        3.5028586387634277,
+        6.800000190734863
+      ]
+    ]
+  },
+  {
+    "id": "L02_CircularFloor",
+    "title": "圆厅整块地台",
+    "group": "02 圆形展厅",
+    "note": "Radius 13.57 m. Center pivot on walking surface. Material remains editable.",
+    "mesh_count": 1,
+    "bounds": [
+      [
+        -13.569999694824219,
+        -13.569999694824219,
+        -0.5
+      ],
+      [
+        13.569999694824219,
+        13.569999694824219,
+        0.0
+      ]
+    ]
+  },
+  {
+    "id": "L02_CircularCeiling",
+    "title": "圆厅连续顶板",
+    "group": "02 圆形展厅",
+    "note": "Radius 13.57 m, thickness .44 m. Center pivot on underside; full surface has no cross-room seam.",
+    "mesh_count": 1,
+    "bounds": [
+      [
+        -13.569999694824219,
+        -13.569999694824219,
+        0.0
+      ],
+      [
+        13.569999694824219,
+        13.569999694824219,
+        0.4399999976158142
+      ]
+    ]
+  },
+  {
+    "id": "L02_CentralPlinth",
+    "title": "双层圆形展台",
+    "group": "02 圆形展厅",
+    "note": "Top diameter 6.5 m, base diameter 7.86 m, top height .86 m. Exhibit meshes stay separate.",
+    "mesh_count": 5,
+    "bounds": [
+      [
+        -3.930000066757202,
+        -3.930000066757202,
+        0.0
+      ],
+      [
+        3.930000066757202,
+        3.930000066757202,
+        0.8600000143051147
+      ]
+    ]
+  },
+  {
+    "id": "L02_Exhibit_Placeholders",
+    "title": "展品比例占位组",
+    "group": "02 圆形展厅",
+    "note": "Three separate neutral sizing props. Pivot at plinth top plane, actual exhibit content stays available for later decision.",
+    "mesh_count": 3,
+    "bounds": [
+      [
+        -1.8899999856948853,
+        -1.2450000047683716,
+        0.0
+      ],
+      [
+        1.899999976158142,
+        2.055000066757202,
+        0.9900000095367432
+      ]
+    ]
+  },
+  {
+    "id": "L03_HallPier",
+    "title": "雕塑厅高石肋",
+    "group": "03 雕塑大厅",
+    "note": "Hall wall pier 7.35 m tall, floor center pivot, recessed bronze detail.",
+    "mesh_count": 4,
+    "bounds": [
+      [
+        -0.4000000059604645,
+        -0.5199999809265137,
+        0.0
+      ],
+      [
+        0.3700000047683716,
+        0.5199999809265137,
+        7.309999942779541
+      ]
+    ]
+  },
+  {
+    "id": "L03_HallWallPanel",
+    "title": "雕塑厅九米石墙板",
+    "group": "03 雕塑大厅",
+    "note": "9 m high x 6 m wide modular wall panel. Front faces -X. Use as an infill between the existing hall ribs.",
+    "mesh_count": 3,
+    "bounds": [
+      [
+        -0.48500001430511475,
+        -3.0,
+        0.0
+      ],
+      [
+        0.25,
+        3.0,
+        9.0
+      ]
+    ]
+  },
+  {
+    "id": "Common_StructuralSlab_4m",
+    "title": "结构地面和地坑底板",
+    "group": "03 雕塑大厅",
+    "note": "Repeat 4 m floor section. Pivot at the walk plane Z=0. Can be used for the large hall and the lowered base under Level 01.",
+    "mesh_count": 1,
+    "bounds": [
+      [
+        -2.0,
+        -2.0,
+        -0.5
+      ],
+      [
+        2.0,
+        2.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "id": "L03_Guardian_01",
+    "title": "石雕守卫 01",
+    "group": "03 雕塑大厅",
+    "note": "Height 5.40 m. Pivot at feet. Front faces +Y. Head, arms, legs and inset are independent meshes.",
+    "mesh_count": 14,
+    "bounds": [
+      [
+        -1.5992834568023682,
+        -0.6683387756347656,
+        0.0
+      ],
+      [
+        1.3930671215057373,
+        0.8719053864479065,
+        5.400000095367432
+      ]
+    ]
+  },
+  {
+    "id": "L03_Guardian_02",
+    "title": "石雕守卫 02",
+    "group": "03 雕塑大厅",
+    "note": "Height 4.54 m. Pivot at feet. Front faces +Y. Head, arms, legs and inset are independent meshes.",
+    "mesh_count": 14,
+    "bounds": [
+      [
+        -1.1617414951324463,
+        -0.5911621451377869,
+        0.0
+      ],
+      [
+        1.2269757986068726,
+        0.7366545796394348,
+        4.539999961853027
+      ]
+    ]
+  },
+  {
+    "id": "L03_Guardian_03",
+    "title": "石雕守卫 03",
+    "group": "03 雕塑大厅",
+    "note": "Height 4.72 m. Pivot at feet. Front faces +Y. Head, arms, legs and inset are independent meshes.",
+    "mesh_count": 14,
+    "bounds": [
+      [
+        -1.2723510265350342,
+        -0.5936307907104492,
+        0.0
+      ],
+      [
+        1.4405083656311035,
+        0.7771967649459839,
+        4.71999979019165
+      ]
+    ]
+  },
+  {
+    "id": "L03_Guardian_04",
+    "title": "石雕守卫 04",
+    "group": "03 雕塑大厅",
+    "note": "Height 3.74 m. Pivot at feet. Front faces +Y. Head, arms, legs and inset are independent meshes.",
+    "mesh_count": 14,
+    "bounds": [
+      [
+        -0.9903345108032227,
+        -0.4810517430305481,
+        0.0
+      ],
+      [
+        0.9220306277275085,
+        0.603861927986145,
+        3.740000009536743
+      ]
+    ]
+  },
+  {
+    "id": "L03_Guardian_05",
+    "title": "石雕守卫 05",
+    "group": "03 雕塑大厅",
+    "note": "Height 3.96 m. Pivot at feet. Front faces +Y. Head, arms, legs and inset are independent meshes.",
+    "mesh_count": 14,
+    "bounds": [
+      [
+        -1.0152448415756226,
+        -0.48678210377693176,
+        0.0
+      ],
+      [
+        1.1146831512451172,
+        0.6560363173484802,
+        3.9600000381469727
+      ]
+    ]
+  },
+  {
+    "id": "L03_Guardian_06",
+    "title": "石雕守卫 06",
+    "group": "03 雕塑大厅",
+    "note": "Height 5.10 m. Pivot at feet. Front faces +Y. Head, arms, legs and inset are independent meshes.",
+    "mesh_count": 14,
+    "bounds": [
+      [
+        -1.303135871887207,
+        -0.6541292667388916,
+        0.0
+      ],
+      [
+        1.547055959701538,
+        0.8355054259300232,
+        5.099999904632568
+      ]
+    ]
+  },
+  {
+    "id": "L03_TeleportFrame",
+    "title": "传送门石框",
+    "group": "03 雕塑大厅",
+    "note": "Front faces -X. Floor pivot centered in opening. Pair with the walk-in recess.",
+    "mesh_count": 14,
+    "bounds": [
+      [
+        -0.4754999876022339,
+        -1.8899999856948853,
+        0.0
+      ],
+      [
+        0.5049999952316284,
+        1.8899999856948853,
+        3.615000009536743
+      ]
+    ]
+  },
+  {
+    "id": "L03_TeleportRecess",
+    "title": "门后传送预留段",
+    "group": "03 雕塑大厅",
+    "note": "2.5 m walk-in length beyond frame. Put trigger in the open floor zone. Pivot just inside the doorway.",
+    "mesh_count": 6,
+    "bounds": [
+      [
+        0.0,
+        -1.809999942779541,
+        -0.5
+      ],
+      [
+        2.6449999809265137,
+        1.809999942779541,
+        3.640000104904175
+      ]
+    ]
+  },
+  {
+    "id": "Decor_BronzeSconce",
+    "title": "青铜壁灯外壳",
+    "group": "04 可选装饰",
+    "note": "Optional wall light. Mount face at X=0. Geometry only; place engine light separately.",
+    "mesh_count": 5,
+    "bounds": [
+      [
+        -0.23549999296665192,
+        -0.20000000298023224,
+        -0.3449999988079071
+      ],
+      [
+        0.10999999940395355,
+        0.20000000298023224,
+        0.3449999988079071
+      ]
+    ]
+  },
+  {
+    "id": "Decor_StoneMarker",
+    "title": "低矮石座",
+    "group": "04 可选装饰",
+    "note": "Optional standing accent for a wall niche. Do not use inside the established walking clearance.",
+    "mesh_count": 3,
+    "bounds": [
+      [
+        -0.36000001430511475,
+        -0.39500001072883606,
+        0.0
+      ],
+      [
+        0.36000001430511475,
+        0.39500001072883606,
+        0.7350000143051147
+      ]
+    ]
+  }
+]
