@@ -83,3 +83,5 @@ crashlytics-build.properties
 
 # 美术验收包（zip与解压物，不入库）
 /ArtReview/
+
+/ArtReview/
